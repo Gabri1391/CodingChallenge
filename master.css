@@ -1,0 +1,92 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  width:800px;
+  height:550px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.logo-box{
+  width: 50%;
+  height: 25%;
+  margin: auto;
+  padding: 10px;
+}
+
+.logo{
+  width: 50%;
+  height: 60%;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo-text{
+  font-size: 25px;
+  color:lime;
+  text-align: center;
+  font-family: "Comic Sans Ms"
+}
+
+.green-box{
+  width: 600px;
+  height:50px;
+  background-color: lime;
+  margin: auto;
+}
+
+.button-box{
+  width: 600px;
+  height:50px;
+  margin: auto;
+  display: inline-block;
+}
+
+.button{
+  width: 140px;
+  height: 30px;
+  text-align: center;
+  margin: 8px;
+  margin-left: 40px;
+}
+
+.info-box{
+  width: 600px;
+  height: 350px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.item{
+  color: white;
+}
+
+.charge1,.charge2,.charge3{
+  height:15px;
+}
+
+.charge1{
+  width: 30%;
+  background-color: orange;
+}
+
+.charge2{
+  width: 60%;
+  background-color: purple;
+}
+
+.charge3{
+  width: 15%;
+  background-color: red;
+}
